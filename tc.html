@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        import java.util.Scanner; <br> class Fn1 <br>{ public static void area_of_circles()<br>{ Scanner obj=new Scanner(System.in); System.out.println("enter the value of r "); int r = obj.nextInt(); double arc= 3.14*r*r; System.out.println("the result");
+        System.out.println(arc); } <br>public static void area_of_rectangle()<br>{ Scanner obj=new Scanner(System.in); System.out.println("enter the value of l "); int l = obj.nextInt(); System.out.println("enter the value of b "); int b = obj.nextInt();
+        int arr= l*b; System.out.println("the result"); System.out.println(arr); }<br> public static void add()<br>{ Scanner obj=new Scanner(System.in); System.out.println("enter the value of x "); int x = obj.nextInt(); System.out.println("enter the
+        value of y "); int y = obj.nextInt(); int add= x+y; System.out.println("the result"); System.out.println(add); } <br>public static void sub()<br>{ Scanner obj=new Scanner(System.in); System.out.println("enter the value of x "); int x = obj.nextInt();
+        System.out.println("enter the value of y "); int y = obj.nextInt(); int sub= x-y; System.out.println("the result"); System.out.println(sub); } <br>public static void multi()<br>{ Scanner obj=new Scanner(System.in); System.out.println("enter the
+        value of x "); int x = obj.nextInt(); System.out.println("enter the value of y "); int y = obj.nextInt(); int multi= x*y; System.out.println("the result"); System.out.println(multi); } public static void divided(){ Scanner obj=new Scanner(System.in);
+        System.out.println("enter the value of x "); int x = obj.nextInt(); System.out.println("enter the value of y "); int y = obj.nextInt(); float divided = x/y; System.out.println("the result"); System.out.println(divided); } public static void main(String[]
+        args) { Scanner obj=new Scanner(System.in); System.out.println("enter type of calculation"); String name = obj.nextLine(); switch(name) { case "addition": add(); break; case "subtration": sub(); break; case "multiplication": multi(); break; case
+        "divided": divided(); break; case "area of circles": area_of_circles(); break; case "area of rectangle": area_of_rectangle(); break; default: System.out.println("thanks"); } } }
+    </p>
+</body>
+
+</html>
